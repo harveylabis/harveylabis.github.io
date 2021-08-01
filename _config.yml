@@ -37,7 +37,9 @@ minima:
 
 header_pages:
   - projects.markdown
+  - mooc.markdown
   - about.markdown
+  - index.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
