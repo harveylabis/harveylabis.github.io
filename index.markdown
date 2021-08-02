@@ -6,5 +6,5 @@ layout: home
 title: Home
 list_title: ' '
 ---
-<h1> Hi! I am Harvey</h1>
-<h3> This is my personal website. </h3>
+<h1> Hi! I'm Harvey </h1>
+<h2> Welcome to my personal website. </h2>
