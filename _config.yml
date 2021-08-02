@@ -21,7 +21,7 @@
 title: HARVEY LABIS ABIAGADOR
 # email: harveyabiagador@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This site contains almost everything I do to my interests studies
+  This site contains almost everything I do to my interests and studies
   that I want to share.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -36,10 +36,10 @@ minima:
   skin: dark
 
 header_pages:
+  - index.markdown
   - projects.markdown
   - mooc.markdown
   - about.markdown
-  - index.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
