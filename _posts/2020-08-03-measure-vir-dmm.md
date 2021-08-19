@@ -3,11 +3,10 @@ layout: post
 title:  "Measuring VOLTAGE, CURRENT, and RESISTANCE 
 using Digital Multimeter"
 date:   2020-08-03 10:18:14 +0800
-categories: electronics blog
+categories: electronics
 published: true
 author: Harvey Labis Abiagador
 ---
-
 
 <h1> What is a Digital Multimeter (DMM)? </h1>
 A multimeter or a multitester is an electronic measuring instrument that combines several measurement functions in one unit. A typical multimeter can measure voltage, current, and resistance. Multimeters are divided into two types depending  on the way the indication is displayed: analog and digital. In this blog post, I will use my cheap manual ranging digital multimeter because it is likely to be more accessible to everyone. Multimeters availabe in the market vary from price, accuracy, size, and appearance but generally operates in the same manner. 
