@@ -36,7 +36,7 @@ plugins:
   - jekyll-feed
 
 minima:
-  skin: solarized-dark
+  skin: dark
 
 show_excerpts: true
 
