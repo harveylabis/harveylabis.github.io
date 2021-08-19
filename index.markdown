@@ -3,8 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Home
+title: Blog
 list_title: ' '
 ---
-<h1> Hi! I'm Harvey </h1>
-<h2> Welcome to my personal website. </h2>

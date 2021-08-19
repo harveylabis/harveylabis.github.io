@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Blinking an LED"
+date:   2021-08-01 18:31:14 +0800
+categories: projects
+tags: waveform-shaping 
+published: false
+---
+
+Blinking an LED is one of the most introductory examples when learning Arduino.
+I this post, I will describe how to turn an LED using Arduino.
+<brs>
+Requirements:
+ * 

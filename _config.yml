@@ -21,11 +21,14 @@
 title: HARVEY LABIS ABIAGADOR
 # email: harveyabiagador@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This site contains almost everything I do to my interests and studies
+  This site contains almost everything I do for my interests and studies
   that I want to share.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  harveylabis
+author: 
+  name: Harvey Labis Abiagador
+  email: harveyabiagador@gmail.com
 
 # Build settings
 theme: minima
@@ -33,7 +36,9 @@ plugins:
   - jekyll-feed
 
 minima:
-  skin: dark
+  skin: solarized-dark
+
+show_excerpts: true
 
 header_pages:
   - index.markdown
