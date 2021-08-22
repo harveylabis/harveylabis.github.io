@@ -43,7 +43,17 @@ set switch to the highest range and reduce it until satisfactory reading is obta
 
 ![Measuring Resistance](/assets/images/resistance.png)
 
-<h2> Remember </h2>
+<h2> Reminders </h2>
+- After taking the measurements, make it a habit of checking if these measurements makes sense. This can be done by relating measurements using an established laws in electronics. In this case, you can use the **Ohm's Law** to confirm if measurements are the numbers you anticipated or atleast approximates it.
+
+{% highlight ruby %}
+V_resistor = I_resistance * Resistance
+    5.12 V = 15.52 mA  *  330R
+    5.12 V = 5.12 V
+{% endhighlight %}
+
+As you can see, the measurements the meter displayed matched to our calculations. Yehey!
+
 - To measure voltage, place the multimeter in **PARALLEL** to the component you are measuring.
     * Parallel components have the same voltage.
 - To measure current, place the multimeter in **SERIES** to the circuit you are measuring.
