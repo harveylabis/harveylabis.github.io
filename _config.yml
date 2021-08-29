@@ -21,8 +21,7 @@
 title: HARVEY LABIS ABIAGADOR
 # email: harveyabiagador@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This site contains almost everything I do for my interests and studies
-  that I want to share.
+  Short blog posts to document electronics and programming endeavors.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  harveylabis
