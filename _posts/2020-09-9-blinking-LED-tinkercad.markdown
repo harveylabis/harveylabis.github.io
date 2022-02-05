@@ -7,16 +7,16 @@ published: true
 author: Harvey Labis Abiagador
 ---
 
-<h1>Introduction</h1>
+## Introduction
 Our instructor in EE 101 told us to get oriented about TinkerCAD. Unfortunately, some of my classmates do not own a laptop or desktop. This is a problem because TinkerCAD is a web-based simulator which works properly using desktop or laptop only. As an initiative, I created a video demonstrating the TinkerCAD environment. I picked the Blink because it's one of the basics. We also did something like this in the past so I think it's easy to follow. I just wanted to show the TinkerCAD environment so that we are on the same page.
 
-<h1>Video Link</h1>
+## Video Link
 [![Blinking an LED with Arduino using TinkerCAD](https://img.youtube.com/vi/x_pJYZoRgmk/0.jpg)](https://youtu.be/x_pJYZoRgmk "Blinking an LED with Arduino using TinkerCAD")
 
-<h1>Circuit Diagram</h1>
+## Circuit Diagram
 ![BlinkLEDSchematic](/assets/images/BlinkLED.png)
 
-<h1>Code</h1>
+## Code
 Here's the code that I demonstrated in the video. To use this with TinkerCAD, simply copy the code below. 
 {% highlight ruby %}
 

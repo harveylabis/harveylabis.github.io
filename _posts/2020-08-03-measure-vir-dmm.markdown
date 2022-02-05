@@ -8,12 +8,12 @@ published: true
 author: Harvey Labis Abiagador
 ---
 
-<h1> What is a Digital Multimeter (DMM)? </h1>
+## What is a Digital Multimeter (DMM)? 
 A multimeter or a multitester is an electronic measuring instrument that combines several measurement functions in one unit. A typical multimeter can measure voltage, current, and resistance. Multimeters are divided into two types depending  on the way the indication is displayed: analog and digital. In this blog post, I will use my cheap manual ranging digital multimeter because it is likely to be more accessible to everyone. Multimeters availabe in the market vary from price, accuracy, size, and appearance but generally operates in the same manner. 
 
 ![Digital Multimeter](/assets/images/dmm.png)
 
-<h1>Measuring Voltage (AC or DC)</h1>
+## Measuring Voltage (AC or DC)
 0. Identify if AC or DC voltage and power off the circuit.
 1. Connect red test lead to "V omega mA" jack. Black lead to "COM" jack.
 2. Set RANGE switch to desired voltage (DCV or ACV). If the voltage to be measured is not known beforehand,
@@ -34,7 +34,7 @@ set switch to the highest range and reduce it until satisfactory reading is obta
 
 ![Measuring Current](/assets/images/current.png)
 
-<h1> Measuring Resistance </h1>
+## Measuring Resistance
 1. Red lead to "V omega mA". Black lead to "COM"
 2. RANGE switch to desired omega position
 3. If the resistance being measured is connected to a circuit,  turn off power, discharge all capacitors, and disconnect one end of  the component before measurement.
@@ -43,7 +43,7 @@ set switch to the highest range and reduce it until satisfactory reading is obta
 
 ![Measuring Resistance](/assets/images/resistance.png)
 
-<h2> Reminders </h2>
+## Reminders 
 - After taking the measurements, make it a habit of checking if these measurements makes sense. This can be done by relating measurements using an established laws in electronics. In this case, you can use the **Ohm's Law** to confirm if measurements are the numbers you anticipated or atleast approximates it.
 
 {% highlight ruby %}
