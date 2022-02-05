@@ -8,12 +8,12 @@ author: Harvey Labis Abiagador
 
 ---
 
+## Introduction
+Supposedly, our laboratory assignment for our Digital Electronics class is driving a 7-Segment display. However, we weren't able to perform it due to time constraint brought by the Typhoon Odette. Curios as I am, I decided to perform it anyway without lab intruction from our instructor. My first attempt is to use an Arduino UNO to drive 7-segment display by mapping the corresponsing segments for a decimal digit and store it as an array.
+
 ![Circuit](/assets/sevenSegment/circuit_real.jpg)
 
 **Video Demo:** [Driving a 7-segment display using Arduino UNO](https://www.youtube.com/watch?v=9R8G8nqu0_o)
-
-## Introduction
-Supposedly, our laboratory assignment for our Digital Electronics class is driving a 7-Segment display. However, we weren't able to perform it due to time constraint brought by the Typhoon Odette. Curios as I am, I decided to perform it anyway without lab intruction from our instructor. My first attempt is to use an Arduino UNO to drive 7-segment display by mapping the corresponsing segments for a decimal digit and store it as an array.
 
 ## 7-Segment Displays
 From the name itself, 7-segment display is just 7 LEDs arranged in a manner shown below.
