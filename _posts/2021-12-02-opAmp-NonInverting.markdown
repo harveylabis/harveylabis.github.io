@@ -8,8 +8,7 @@ author: Harvey Labis Abiagador
 
 ---
 
-## Introduction
-Another lesson I had in my Electronics 2 class is Operational Amplifier. I heard this component in electroincs is very common and useful in a lot of applications. Luckily, I found a LM358 op amp in my components bin. I decided to creat a non-inverting amplifier using an op-amp to confirm the things  discussed in the class with this component. 
+Another lesson I had in my Electronics 2 class is Operational Amplifier. I heard this component in electroincs is very common and useful in a lot of applications. Luckily, I found a LM358 op amp in my components bin. I decided to creat a non-inverting amplifier using an op-amp to confirm the things  discussed in the class with this component.
 
 ![intro](/assets/opAmp_NonInverting/intro_resize.jpg)
 
@@ -26,18 +25,18 @@ From the name itself, a non-inverting amplifier is an amplifier that produces an
 - Breadboard
 - Jumper Wires
 
-## Circuit Diagram 
+## Circuit Diagram
 ![ltspice](/assets/opAmp_NonInverting/ltspice.PNG)
 
-## Actual Circuit 
+## Actual Circuit
 
 In this demonstration, I used a 12-V DC coming from my bench power supply to power the Op Amp. The measurement in the input rail was taken to verify this voltage.
 
 ![Input Supply](/assets/opAmp_NonInverting/input_supply_merge.jpg)
 
-For arbitrary reason, I decided to use a 4V DC input to Op amp. I achieved this by using a **voltage divider rule** following the calculation: 
+For arbitrary reason, I decided to use a 4V DC input to Op amp. I achieved this by using a **voltage divider rule** following the calculation:
 
-![voltage divider equation](/assets/opAmp_NonInverting/voltage_divider_eqn.jpg) 
+![voltage divider equation](/assets/opAmp_NonInverting/voltage_divider_eqn.jpg)
 
 ![Vin](/assets/opAmp_NonInverting/input_resize.jpg)
 

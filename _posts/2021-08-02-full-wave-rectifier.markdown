@@ -7,7 +7,6 @@ author: "Harvey Labis Abiagador"
 published: true
 ---
 
-## Introduction
 Another application of diode that was discussed in the Electronics 1 class is the full wave rectifier. This type of rectifier is more efficient than the half wave rectifier because it makes use of the other half cycle. I believe that full wave rectifier is far more superior and common than the half wave rectifier. Because of this, I decided to create a circuit in a breadboard and see it in action. The full wave rectifier I demonstrated used 4 diodes in total. Another way to achieve a full wave rectification is to used a center tapped transformer.
 
 ![intro](/assets/fullWave/intro_resize.jpg)
@@ -37,11 +36,9 @@ The actual full wave rectifier circuit I created is shown below. The input signa
 ![input](/assets/fullWave/input_resize.jpg)
 
 When I measured the output voltage at the resistor, the familiar full wave rectifier waveform will show up. As shown, there is no negative hald cycle instead there two positive cycles for period in the input. This can be easily shown my oscilloscope has two channels. Nevertheless, it is obvious that the output waveform below is the same in the LTspice simulation.
- 
+
 ![output no Capacitor](/assets/fullWave/output_noCap_resize.jpg)
 
 To obtained a smooth DC output, I added a capacitor in parallel to the resistor. The output waveform taken at the capacitor is now a straight line suggesting a smooth DC voltage. I just converted an AC input to a DC output with this circuit as expected.
 
 ![output with Capacitor](/assets/fullWave/output_withCap_resize.jpg)
-
-

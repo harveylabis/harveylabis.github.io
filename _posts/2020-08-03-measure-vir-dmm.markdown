@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Measuring VOLTAGE, CURRENT, and RESISTANCE 
+title:  "Measuring VOLTAGE, CURRENT, and RESISTANCE
 using Digital Multimeter"
 date:   2020-08-03 10:18:14 +0800
 categories: electronics
@@ -8,8 +8,7 @@ published: true
 author: Harvey Labis Abiagador
 ---
 
-## What is a Digital Multimeter (DMM)? 
-A multimeter or a multitester is an electronic measuring instrument that combines several measurement functions in one unit. A typical multimeter can measure voltage, current, and resistance. Multimeters are divided into two types depending  on the way the indication is displayed: analog and digital. In this blog post, I will use my cheap manual ranging digital multimeter because it is likely to be more accessible to everyone. Multimeters availabe in the market vary from price, accuracy, size, and appearance but generally operates in the same manner. 
+A multimeter or a multitester is an electronic measuring instrument that combines several measurement functions in one unit. A typical multimeter can measure voltage, current, and resistance. Multimeters are divided into two types depending  on the way the indication is displayed: analog and digital. In this blog post, I will use my cheap manual ranging digital multimeter because it is likely to be more accessible to everyone. Multimeters availabe in the market vary from price, accuracy, size, and appearance but generally operates in the same manner.
 
 ![Digital Multimeter](/assets/images/dmm.png)
 
@@ -28,7 +27,7 @@ set switch to the highest range and reduce it until satisfactory reading is obta
 0. Identify if DC current and power off the circuit.
 1. Red lead to "V omega mA". Black lead to "COM". For measurements, between 200mA and 10A, connect red lead to "10A" jack.
 2. Range switch to desired DCA position.
-3. OPEN the circuit to be measured. 
+3. OPEN the circuit to be measured.
 4. Connect the test leads **IN SERIES** with the load in which current is to be measured.
 5. Read current value on digital display.
 
@@ -43,7 +42,7 @@ set switch to the highest range and reduce it until satisfactory reading is obta
 
 ![Measuring Resistance](/assets/images/resistance.png)
 
-## Reminders 
+## Reminders
 - After taking the measurements, make it a habit of checking if these measurements makes sense. This can be done by relating measurements using an established laws in electronics. In this case, you can use the **Ohm's Law** to confirm if measurements are the numbers you anticipated or atleast approximates it.
 
 {% highlight ruby %}
@@ -60,8 +59,3 @@ As you can see, the measurements the meter displayed matched to our calculations
     * Series components have the same current.
 
 **FOR MORE INFORMATION, CHECK THE [PRIMER](https://drive.google.com/file/d/1ppjKUPyD02qJknADkYjmy01E_9knWCoV/view?usp=sharing) I MADE.**
-
-
-
-
-

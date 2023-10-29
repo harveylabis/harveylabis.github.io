@@ -8,7 +8,6 @@ author: Harvey Labis Abiagador
 
 ---
 
-## Introduction
 Supposedly, our laboratory assignment for our Digital Electronics class is driving a 7-Segment display. However, we weren't able to perform it due to time constraint brought by the Typhoon Odette. Curios as I am, I decided to perform it anyway without lab intruction from our instructor. My first attempt is to use an Arduino UNO to drive 7-segment display by mapping the corresponsing segments for a decimal digit and store it as an array.
 
 ![Circuit](/assets/sevenSegment/circuit_real.jpg)
@@ -23,20 +22,20 @@ From the name itself, 7-segment display is just 7 LEDs arranged in a manner show
 Each segment as a corresponding pin which to need to power on/off depending on the digit we want to display. For our purpose, we want to display digits 0 to 9.
 
 ## Components Used
-- Arduino UNO 
+- Arduino UNO
 - 7-Segment LED (5011AS)
 - 7 x 220 Ohm resistors
 - Jumper wires
 - Breadboard
 
-## Circuit Schematic 
+## Circuit Schematic
 ![Circuit on Breadboard](/assets/sevenSegment/sevenSeg_arduino_fritzing_bb.png)
 
 ## Code
 {% highlight c %}
-/* 
+/*
  * Drive a 7-segment display 5011AS from 0 to 9
- * 
+ *
  * Author: Harvey Labis Abiagador
  * created: January 28, 2022
  */
@@ -63,7 +62,7 @@ void setup() {
   for (int i = 0; i < segments_size; i++){
     pinMode(segments[i], OUTPUT);
     digitalWrite(segments[i], LOW);
-    } 
+    }
 }
 
 void loop() {
