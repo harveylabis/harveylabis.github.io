@@ -62,6 +62,8 @@ If we take a closer look at a single character, say ‘H’, we can analyze how 
 
 ![char H](/assets/uart/UART_char.png)
 
-From the image above, when the UART line is idle, the TX line stays high. When a UART transmission starts, the line is pulled low, indicating the start bit. After that, the data bits are sent LSB first. Once all 8 data bits are transmitted, the TX line returns to high, representing the stop bit.
+From the image above, when the UART line is idle, the TX line stays high. When a UART transmission starts, the line is pulled low, indicating the start bit. After that, the data bits are sent LSB first. Once all 8 data bits are transmitted, the TX line returns to high, representing the stop bit. Since stop=1, only 1 bit HIGH represents the stop, if we put stop=2, there would be 2 bits HIGH to indicate stop.
+
+![stop bit](/assets/uart/UART_stop.png)
 
 Pretty cool, right?
